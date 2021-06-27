@@ -429,7 +429,7 @@ a.btn-fifa {
 }
 
 .slide-news {
-    width: 292px;
+    width: 366px;
     min-height: 155px;
     background: #ECECEC;
     padding: 10px 20px;
@@ -457,10 +457,11 @@ a.btn-fifa {
     color: #A3A3A3;
     font-size: 14px;
     font-weight: 500;
+    margin-bottom: 25px;
 }
 
 .hr-title {
-    width: 20%;
+    width: 5%;
 }
 
 .title-news {
@@ -468,8 +469,8 @@ a.btn-fifa {
     color: #585858;
     font-size: 24px;
     font-weight: bold;
-    margin-top: 8px;
-    margin-bottom: 12px;
+    margin-top: 20px;
+    margin-bottom: 50px;
     line-height: 26px;
 }
 
@@ -482,7 +483,7 @@ a.btn-fifa {
 }
 
 .slide-news .title-news {
-    height: 50px;
+    height: 55px;
     overflow-y: hidden;
 }
 
@@ -640,7 +641,7 @@ a.btn-fifa {
 }
 
 .first-news {
-    width: 478px;
+    width: 366px;
 }
 
 .title-first-news {
@@ -674,16 +675,21 @@ a.btn-fifa {
 }
 
 .block-news-right {
-    width: calc(100% - 490px);
+    width: calc(100% - 370px);
     flex-wrap: wrap;
+    position: relative;
+}
+
+.block-news-right img {
+    position: absolute;
+    width: 87%;
+    top: 0;
+    right: 0;
+    object-fit: contain;
 }
 
 .news-right {
     width: 280px;
-}
-
-.block-news-right > div:nth-child(2n) {
-    margin-left: 30px;
 }
 
 .content-left {
@@ -720,10 +726,6 @@ a.btn-fifa {
     font-size: 20px;
     display: inline-block;
     text-transform: uppercase;
-}
-
-.content-left .block-news-right > div:nth-child(2n) {
-    margin-left: 0;
 }
 
 .content-left .news-home .title-news {
