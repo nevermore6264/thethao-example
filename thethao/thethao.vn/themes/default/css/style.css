@@ -728,28 +728,6 @@ a.btn-fifa {
     width: 300px;
 }
 
-.menu-content-left {
-    background: #EF4123;
-    padding: 10px 10px 10px 20px;
-    position: relative;
-}
-
-.menu-content-left:before,
-.menu-content-gray:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    width: 8px;
-    background: #DA1818;
-}
-
-.menu-content-left .btn-menu-content:hover {
-    color: #fff;
-    background: #DA1818;
-}
-
 .title-block {
     font-size: 20px;
     display: inline-block;
@@ -1411,56 +1389,6 @@ a.btn-fifa {
     -webkit-text-decoration-color: #ccc;
     text-decoration-color: #ccc;
     font-weight: 700;
-}
-
-#news_hot_trenda .slick-track {
-    display: flex;
-}
-
-#news_hot_trenda .slide-news {
-    display: flex;
-    flex-direction: column;
-    background: #d7ecec;
-}
-
-#news_hot_trenda .slick-slide {
-    height: unset;
-}
-
-#news_hot_trenda .reporters {
-    margin-top: auto;
-}
-
-#news_hot_trenda .reporter-image a.css-uwwqev {
-    float: left;
-}
-
-#news_hot_trenda .slide-news .title-news {
-    height: auto;
-}
-
-#news_hot_trenda .slide-news a {
-    color: #226f6f;
-}
-
-#news_hot_trenda .reporters .reporter-name a, #news_hot_trenda .reporters .reporter-name span {
-    color: #083333;
-}
-
-.wrap-news_hot_trend .menu-content-left {
-    padding-left: 145px;
-    background: url('../image/bg_title_euro.png') no-repeat;
-    background-size: cover;
-    height: 47px;
-}
-
-.wrap-news_hot_trend .menu-content-left:before {
-    display: none;
-}
-
-.wrap-news_hot_trend .title-block {
-    font-size: 22px;
-    margin-top: 2px;
 }
 
 .content-news .expNoEdit {
