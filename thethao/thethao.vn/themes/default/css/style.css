@@ -243,26 +243,11 @@ ul {
     padding-bottom: 20px;
 }
 
-.btn-default {
-    outline: none;
-    border: none;
-    cursor: pointer;
-}
-
-.flex-wrap {
-    flex-wrap: wrap;
-}
-
 .w-100 {
     width: 100% !important;
 }
 
-.bg-icon {
-    background: url('../image/icon.png') transparent;
-}
-
-.header,
-.sub-menu {
+.header {
     width: 100%;
     height: 50px;
     padding: 10px 0;
@@ -391,22 +376,22 @@ span.icon-schedule {
 
 .block-sub-menu .icon-calendar {
     top: 5px;
-    left: 0px;
+    left: 0;
 }
 
 .block-sub-menu .icon-result {
     top: 5px;
-    left: 0px;
+    left: 0;
 }
 
 .block-sub-menu .icon-standing {
     top: 5px;
-    left: 0px;
+    left: 0;
 }
 
 .block-sub-menu .icon-fifa {
     top: 5px;
-    left: 0px;
+    left: 0;
 }
 
 a.btn-fifa {
@@ -415,17 +400,17 @@ a.btn-fifa {
 
 .block-sub-menu .icon-top-score {
     top: 5px;
-    left: 0px;
+    left: 0;
 }
 
 .block-sub-menu .icon-live {
     top: 5px;
-    left: 0px;
+    left: 0;
 }
 
 .block-sub-menu .icon-schedule {
     top: 5px;
-    left: 0px;
+    left: 0;
 }
 
 .slide-news {
@@ -519,94 +504,10 @@ a.btn-fifa {
     color: #A3A3A3;
 }
 
-.block-slide-news .slick-prev,
-.block-slide-news .slick-next {
-    width: 30px;
-    height: 30px;
-    background: #585858;
-    z-index: 3;
-    border-radius: 50%;
-}
-
-.block-slide-news .slick-prev {
-    left: -15px;
-}
-
-.block-slide-news .slick-next {
-    right: -15px;
-}
-
-.block-slide-news .slick-prev:before,
-.block-slide-news .slick-next:before {
-    content: '';
-    width: 20px;
-    height: 20px;
-    display: block;
-    background-image: url("../image/icon.png");
-}
-
-.block-slide-news .slick-prev:before {
-    background-position: -55px -31px;
-}
-
-.block-slide-news .slick-next:before {
-    background-position: -75px -31px;
-}
-
-.block-slide-news .slick-prev:hover,
-.block-slide-news .slick-next:hover {
-    background: #EF4123;
-    transition: all .1s ease;
-}
-
-.first-home .img-first-home {
-    display: inline-block;
-    height: 303px;
-}
-
-.info-first-home {
-    background: #EF4123;
-    width: calc(100% - 538px);
-    padding: 20px;
-    color: #fff;
-    height: 303px;
-    position: relative;
-}
-
-.title-first-home {
-    font-size: 35px;
-    font-weight: 700;
-    line-height: 42px;
-    color: #fff;
-}
-
 .description-first-home {
     font-size: 16px;
     line-height: 22px;
     min-height: 70px;
-}
-
-.news-home {
-    display: inline-block;
-    width: 25%;
-    padding: 0 10px;
-}
-
-.news-hot-home > div:first-child {
-    padding-left: 0;
-}
-
-.news-hot-home > div:last-child {
-    padding-right: 0;
-}
-
-.news-home img {
-    width: 100%;
-}
-
-.news-home .title-news {
-    font-size: 20px;
-    margin-top: 15px;
 }
 
 .block-gray {
@@ -630,32 +531,7 @@ a.btn-fifa {
 .title-video .icon-video {
     position: absolute;
     top: 2px;
-    left: 0px;
-}
-
-.btn-menu-content {
-    font-size: 14px;
-    line-height: 24px;
-    margin: 5px 5px;
-    padding: 5px 15px;
-    border-radius: 15px;
-}
-
-.btn-menu-content:hover {
-    color: #EF4123;
-    background: #fff;
-    transition: all .3s ease;
-}
-
-.first-news {
-    width: 366px;
-}
-
-.title-first-news {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 35px;
-    line-height: 42px;
+    left: 0;
 }
 
 .block-news-right {
@@ -693,44 +569,6 @@ a.btn-fifa {
 .content-left .news-home .title-news {
     margin-top: 8px;
     font-size: 18px;
-}
-
-.three-news {
-    padding: 25px 0 10px;
-    border-top: 1px solid #ECECEC;
-    border-bottom: 1px solid #ECECEC;
-}
-
-.title-red {
-    color: #ED1C24;
-    font-size: 14px;
-    display: block;
-}
-
-.content-three-news {
-    flex-grow: 3.3;
-    padding-right: 20px;
-}
-
-.three-news > div:last-child {
-    padding-right: 0;
-}
-
-.content-left-mini {
-    width: 280px;
-}
-
-.content-right-mini {
-    width: 480px;
-}
-
-.content-left-mini .news-home {
-    padding: 0;
-    width: 100%;
-}
-
-.content-left-mini .news-home .title-news {
-    font-size: 20px;
 }
 
 .border-news {
